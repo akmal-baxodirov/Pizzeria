@@ -1,0 +1,263 @@
+/* ===================== Root =================== */
+:root{
+    --fm: 'Montserrat', sans-serif;
+    --fm-thin: 100;
+    --fm-light: 300;
+    --fm-regular: 400;
+    --fm-bold: 700;
+    --fm-black: 900;
+    --green1: rgba(103, 203, 22); /* Button uchun*/
+    --green2: rgba(104, 191, 59); /*Font and number*/
+    --green3: rgba(104, 205, 22);
+    --grey1: rgba(189, 189, 189);
+    --grey2: rgba(166, 166, 166);
+    --white: #ffffff;
+    --col-1: calc(100% / 12 * 1);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: calc(100% / 12 * 12);
+}
+
+/* ============================================== */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--fm);
+    min-width: 320px;
+}
+header{
+    width: 100%;
+    min-height: 770px;
+    background: url(image/header_bg.jpg) no-repeat center center / cover ;
+}
+.container{
+    padding: 30px;
+    width: 1110px;
+    margin: auto; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 50px;
+    
+}
+nav ul li span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 20px 27px;
+    background: #68bf3b;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+.main{
+    margin-top: 195px;
+}
+.top-p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.main h1{
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 35px 0 40px 0;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.bottom-p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.main button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #68bf3b;
+    border-radius: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.container-1{
+    padding: 30px;
+    width: 1110px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px; 
+}
+.box{
+    margin-left: 30px;
+}
+.box h2{
+    font-size: 36px;
+    color: #68bf3b;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+.box p{
+    font-size: 18px;
+    color: #bdbdbd;
+    line-height: 36px;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.name h3{
+    margin-right: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #bdbdbd;
+}
+.menu h2{
+    font-size: 36px;
+    color: #e1f5d0;
+    letter-spacing: 6px;
+}
+.item{
+    display: flex;
+    margin-top: 50px;
+}
+.item .picture{
+    position: relative;
+    margin-right: 30px;
+}
+.item .picture p{
+width: 60px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #68bf3b;
+border-radius: 50% ;
+color: #ffffff;
+font-size: 18px;
+font-weight: 700;
+position: absolute;
+top: 30px;
+left: 30px;
+}
+.text{
+    width: 315px;
+    padding: 30px 0 35px 0;
+    margin-right: 215px ;
+}
+.text h3{
+    font-size: 30px;
+    color: #a6a6a6;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+.text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a6a6a6;
+    word-spacing: 6px;
+    line-height: 24px;
+}
+.price h3{
+    font-size: 30px;
+    color: #a6a6a6;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+.price h3 span{
+    font-size: 18px;
+    font-weight: 200;
+    color: #b2b2b2;
+}
+.price button{
+    width: 200px;
+    height: 50px;
+    background: #68bf3b;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.container-2{
+    width: 1110px;
+    margin: auto; 
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.profile h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color:#a6a6a6;
+    text-transform: uppercase;
+}
+.profile p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a6a6a6;
+    text-align: center;
+    word-spacing: 5px;
+}
+footer{
+    height: 200px;
+    background: black;
+    width: 100%;
+    position: relative;
+}
+footer .par p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    position: absolute;
+    left: 41%;
+    bottom: 20%;
+}
